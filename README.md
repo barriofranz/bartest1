@@ -1,1 +1,4 @@
-# bartest1
+# Hi. I have made a class named Basket. It has some protected properties such as $products, and $shippingOffers. 
+# It also has public function called 'add' which accepts productcode, it stores quantity of the product as value and  the productcode as array key in here.
+# Theres also a function called applyPromo1 for the special promo which modify the quantity of the product if the product is R01. this function adjusts the qty of the product in every 2 count of R01 into 0.75% to satisfy buy1 get 1 50% off. if theres an odd number of qty which is greater than 1, the function just add the qty as a whole to be paid in full price.
+# Lastly, theres a total function which calculate the the product prices by applying the promo1, if its R01, multiplying the qty, and summing up all products, and add shipping based on total.
